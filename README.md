@@ -110,6 +110,17 @@ To advance this documentation repository, secure development context, or threat-
 * Generate a **comprehensive Markdown table** explicitly analyzing Direct Jailbreaks, Indirect Document Infections, Automated GCG Suffixes, and Cross-Modal Pixel Overrides across entry vectors, computation generation budgets, requirement for parameter weight visibility (white-box vs black-box), and enterprise defense effectiveness.
 * Establish an **automated red-teaming validation harness using Triton** to profile exactly how interleaving front-end input token summarization filters impacts the wall-clock processing latency of live concurrent user generation pre-fills.
 
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Prompt-Injection-Attacks&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Prompt-Injection-Attacks&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Prompt-Injection-Attacks&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Prompt-Injection-Attacks&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
 ***
 
 **Proactive Repository Follow-Ups:**
