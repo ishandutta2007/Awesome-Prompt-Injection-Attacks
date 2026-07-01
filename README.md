@@ -46,8 +46,16 @@ Prompt Injection frameworks are strictly categorized based on the entry vector o
 
 Successfully executing a prompt injection attack against a model integrated into a live software ecosystem unlocks specialized, destructive secondary capability breaches.
 
-```
-[Malicious Third-Party PDF] ──(Autonomous Web Scrape)──> [Vulnerable Agent Scaffolding]│(System Rules Overridden Invisibly)│▼[Proprietary Data Exfiltration] <──(API Data Dump)── [Unauthorized Local File Writes]
+```mermaid
+flowchart TD
+    A["Malicious Third-Party PDF"]
+    -- "Autonomous Web Scrape" -->
+    B["Vulnerable Agent Scaffolding"]
+
+    B -->|System Rules Overridden Invisibly| C["Proprietary Data Exfiltration"]
+    D["Unauthorized Local File Writes"]
+    -- "API Data Dump" -->
+    C
 ```
 
 *   **Remote Code Execution (RCE) via Sandboxed Tool Abuse**
