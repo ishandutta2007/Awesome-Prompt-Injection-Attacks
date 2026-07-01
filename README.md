@@ -1,11 +1,16 @@
-# Awesome-Prompt-Injection-Attacks
-## Prompt Injection Attacks in AI: History, Progression, Variants, & Applications
+# 🛡️ Awesome-Prompt-Injection-Attacks
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Prompt Injection Attacks Banner" width="100%" />
+</p>
+
+## 🔍 Prompt Injection Attacks in AI: History, Progression, Variants, & Applications
 
 A Prompt Injection Attack is a specialized cybersecurity vulnerability unique to Large Language Models (LLMs) and Vision-Language Models (VLMs). It occurs when an adversarial input manipulates the model’s semantic layers to override its original system instructions, core safety guardrails, or behavioral parameters. Because transformers process developer-defined system rules and user-provided inputs within the same underlying contextual workspace, the model is structurally incapable of cleanly separating "code" (instructions) from "data" (untrusted inputs). This architectural blending allows attackers to craft linguistic payloads that hijack the model’s next-token generation stream, enabling them to bypass alignment restrictions, leak confidential system prompts, or trick autonomous AI agents into executing unauthorized system-level backend transactions.
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 📅 1. The Macro Chronological Evolution
 
 The technical methodology of prompt-based exploitation has transitioned from manual direct text manipulation to structured, automated cross-modal overrides and stealthy indirect environment infections.
 
@@ -23,7 +28,7 @@ flowchart LR
 
 ---
 
-## 2. Core Operational & Vector Variants
+## 🧠 2. Core Operational & Vector Variants
 
 Prompt Injection frameworks are strictly categorized based on the entry vector of the adversarial payload and the level of structural automation deployed.
 
@@ -35,7 +40,7 @@ Prompt Injection frameworks are strictly categorized based on the entry vector o
 
 ---
 
-## 3. Downstream Agentic Exploit & Impact Types
+## ⚙️ 3. Downstream Agentic Exploit & Impact Types
 
 Successfully executing a prompt injection attack against a model integrated into a live software ecosystem unlocks specialized, destructive secondary capability breaches.
 
@@ -58,7 +63,7 @@ flowchart TD
 
 ---
 
-## 4. Production Engineering Challenges & Hardening Countermeasures
+## 🛡️ 4. Production Engineering Challenges & Hardening Countermeasures
 
 Securing foundational transformer pipelines against prompt-level subversion requires balancing model processing flexibility with strict architectural safety isolation.
 
@@ -69,7 +74,7 @@ Securing foundational transformer pipelines against prompt-level subversion requ
 
 ---
 
-## 5. Frontier Real-World AI Security Case Studies
+## 🧪 5. Frontier Real-World AI Security Case Studies
 
 | Case Study | The Scenario | Year First Used | First Used Paper |
 | :--- | :--- | :--- | :--- |
@@ -79,7 +84,7 @@ Securing foundational transformer pipelines against prompt-level subversion requ
 
 ---
 
-## References
+## 📚 References
 1. Goodfellow, I. J., Shlens, J., & Szegedy, C. (2014). Explaining and harnessing adversarial examples. *arXiv preprint arXiv:1412.6572*.
 2. Perez, F., & Ribeiro, I. (2022). Ignore previous instructions: Don't imagine a blue elephant: Adversarial prompt injections in language models. *arXiv preprint arXiv:2211.09527*.
 3. Greshake, K., et al. (2023). Not what you ve read: Devising indirect prompt injection attacks on large language models. *arXiv preprint arXiv:2302.12173*.
