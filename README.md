@@ -4,6 +4,17 @@
   <img src="assets/banner.svg" alt="Awesome Prompt Injection Attacks Banner" width="100%" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+</p>
+
+<!-- SEO Meta Tags -->
+<!-- title: Awesome Prompt Injection Attacks - LLM Security & Red Teaming -->
+<!-- description: Comprehensive history, variants, agentic exploits, and countermeasures for prompt injection attacks on Large Language Models. -->
+<!-- keywords: prompt injection, jailbreak, llm security, adversarial attacks, gcg, indirect prompt injection -->
+
+
+
 ## 🔍 Prompt Injection Attacks in AI: History, Progression, Variants, & Applications
 
 A Prompt Injection Attack is a specialized cybersecurity vulnerability unique to Large Language Models (LLMs) and Vision-Language Models (VLMs). It occurs when an adversarial input manipulates the model’s semantic layers to override its original system instructions, core safety guardrails, or behavioral parameters. Because transformers process developer-defined system rules and user-provided inputs within the same underlying contextual workspace, the model is structurally incapable of cleanly separating "code" (instructions) from "data" (untrusted inputs). This architectural blending allows attackers to craft linguistic payloads that hijack the model’s next-token generation stream, enabling them to bypass alignment restrictions, leak confidential system prompts, or trick autonomous AI agents into executing unauthorized system-level backend transactions.
