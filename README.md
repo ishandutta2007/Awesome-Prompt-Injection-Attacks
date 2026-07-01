@@ -9,8 +9,11 @@ A Prompt Injection Attack is a specialized cybersecurity vulnerability unique to
 
 The technical methodology of prompt-based exploitation has transitioned from manual direct text manipulation to structured, automated cross-modal overrides and stealthy indirect environment infections.
 
-```
-[Direct Injections (Jailbreaks, 2022)] ───> [Indirect Multi-Hop Infections (2023)] ───> [Cross-Modal Pixel/Audio Overrides (2025+)](Manual Verbal Roleplay & Hypnotism)         (Stealth Web/Document Data Corruption)      (Unified Token-Level Multi-Sensory Hijacking)
+```mermaid
+flowchart LR
+    A["Direct Injections (Jailbreaks, 2022)<br/>(Manual Verbal Roleplay & Hypnotism)"]
+    --> B["Indirect Multi-Hop Infections (2023)<br/>(Stealth Web/Document Data Corruption)"]
+    --> C["Cross-Modal Pixel/Audio Overrides (2025+)<br/>(Unified Token-Level Multi-Sensory Hijacking)"]
 ```
 
 
